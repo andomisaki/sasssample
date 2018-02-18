@@ -1,25 +1,28 @@
-/* Scss Document */
+@charset 'utf-8';
 
+// ===========================
+// Reset
+// ===========================
 @import "./lib/sanitize";
 
-:root, html, body{
-	background-color: $color-base;
-	color: $color-main-text;
-	width: 100%
+:root, html, body {
+    background-color: $color-base;
+    color: $color-main-text;
+    width: 100%;
 }
-*{
-	box-sizing: border-box;
-}
-
-li{
-	list-style-type: none;
+* {
+    box-sizing: border-box;
 }
 
-a{
-	color: $color-main-text;
+li {
+    list-style-type: none;
 }
 
-a:hover{
+a {
+    color: $color-main-text;
 	text-decoration: none;
-	color: $color-link;
+}
+a:hover {
+    text-decoration: none;
+    color: $color-link;
 }
