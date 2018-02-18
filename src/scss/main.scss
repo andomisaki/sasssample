@@ -1,8 +1,51 @@
 @charset 'utf-8';
 
+// ===========================
+// Base
+// ===========================
 @import "./base/variables";
 @import "./base/reset";
-@import "./components/common/header";
-@import "./components/common/menu";
-@import "./components/common/entryPanel";
 
+
+// ===========================
+// Components
+// ===========================
+
+// Parts
+//----------------------------
+// レイアウト
+@import "./components/parts/layouts";
+
+// ボタン
+@import "./components/parts/buttons";
+
+//ラベルs
+@import "./components/parts/labels";
+
+// Common
+//----------------------------
+// ヘッダー
+@import "./components/common/header";
+
+// メニュー
+@import "./components/common/menu";
+
+//セクション
+@import "./components/common/section";
+
+@import "./components/overlayPanel";
+
+@import "./components/iconPanel";
+
+@import "./components/newsList";
+
+
+// Others
+//----------------------------
+// ブログ抜粋
+@import "./components/entryPanel";
+
+//カルーセル
+@import "./components/imageSlide";
+
+@import "./pages/index";
